@@ -1,0 +1,175 @@
+
+menu
+prompt the user to select one of the options:
+1. Sign-up
+2. Login
+3. Exit
+
+if choice '1' (Signup)
+    create an account/profile for the User
+        prompt the user to input:
+            firstname
+            lastname
+            email address
+            phone number
+            username
+            password
+
+if choice '2' (Login)
+    prompt the user to input his/her username
+    prompt the user to input his/her password
+    check if the username and password are correct and log the user in
+    print a welcome message
+    print a menu with options:
+        1. Book a table
+        2. Preorder food
+        3. Preorder a drink
+        4. Book a hall
+        5. Book a suite
+        6. Show order
+        7. Rate your experience
+        8. Logout
+
+
+        if user choice == 1 (Book a table), print options:
+            1. Small table - $20
+            2. Medium table - $30
+            3. Large table - $40
+            4. Extra Large table - $50
+
+                if choice == 1(Small table):
+                    print "small table added to your order"
+                    add selection to 'order
+
+                if choice == 2 (Medium table):
+                    print "Medium table added to your order"
+                    add selection to 'order
+
+                if choice == 3 (Large table):
+                   print "Large table added to your order"
+                    add selection to 'order
+
+                if choice == 4 (Extra large table):
+                    print "Extra large table added to your order"
+                    add selection to 'order
+
+
+        if user choice == 2 (Preorder food), print options:
+            1. Jollof rice with chicken ($15)
+            2. Fried rice with chicken ($18)
+            3. pounded yam and Egwusi soup ($25)
+            4. Suya $10
+
+                if choice == 1;
+                    print "Jollof rice with chicken added to your order"
+                    add selection to order
+
+                if choice == 2;
+                    print "Fried rice with chicken added to your order"
+                    add selection to order
+
+                if choice == 3;
+                    print "Pounded yam and egusi added to your order"
+                    add selection to order
+
+                if choice == 4.
+                    print "Suya added to your order"
+                    add selection to order
+
+        if user choice == 3 (Preorder a drink), print options:
+            1. Non alchoholic drink -$5
+            2. Wines -$10
+            3. Malt - $3
+            4. Minerals - $2   
+
+                if choice == 1.
+                    print "Non alchoholic drink added to your order"
+                    add selection to order
+
+                if choice == 2.
+                    print "Wine added to your order"
+                    add selection to order
+
+                if choice == 3.
+                    print "Malt added to your order"
+                    add selection to order
+
+                if choice == 4.
+                    print "Mineral added to your order"
+                    add selection to order
+
+        if choice == 4 (Book a hall), print options:
+            1. Small hall - $100
+            2. Medium hall - $200
+            3. Large hall - $300
+            4. Extra Large hall - $500
+
+            if choice == 1 (Small hall);
+                print "Small hall added to your order"
+                add selection to order
+
+            if choice == 2 (Medium hall);
+                print "Medium hall added to your order"
+                add selection to order
+
+            if choice == 3 (Large hall);
+                print "Large hall added to your order"
+                add selection to order
+
+            if choice == 4 (Extra large hall);
+                print "Extra large hall added to your order"
+                add selection to order
+
+
+        if choice == 5 (Book a Suite), print options:
+            1. Small suite - $50
+            2. Medium suite - $100
+            3. Large suite - $150
+            4. Extra Large suite - $200
+
+            if choice == 1;
+                print "Small suite added to your order"
+                add selection to order
+
+            if choice == 2;
+                print "Medium suite added to your order"
+                add selection to order
+
+        if choice == 6 (Show order):
+            print user order
+            calculate the sum of orders and name it 'Total'
+
+            print "Payment options"
+                1. Credit card
+                2. Debit card
+                3. Mobile transfer
+                4. POS
+
+                if choice == 1;
+                    print "payment of 'Total' successful"
+
+                if choice == 2;
+                    print "payment of 'Total' successful"
+
+                if choice == 3;
+                    print "payment of 'Total' successful"
+
+                if choice == 4;
+                    print "payment of 'Total' successful"
+
+        if choice == 7 (Rate your experience), print options:
+            1. Excellent
+            2. Good
+            3. Fair
+            4. Poor
+            5. Very Poor
+
+            if choice (1-5) print "Thank you for your feedback"
+
+        if choice == 8 (Logout);
+            logout
+
+    if choice '3' (Exit)
+        print "Exiting the system"
+        exit program
+
